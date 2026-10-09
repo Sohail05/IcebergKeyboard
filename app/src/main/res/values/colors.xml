@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="iceberg_primary">#1F6FEB</color>
+    <color name="iceberg_launcher_bg">#0B2545</color>
+    <color name="iceberg_launcher_fg">#E8F4FF</color>
+    <color name="iceberg_launcher_accent">#8ECAE6</color>
+</resources>

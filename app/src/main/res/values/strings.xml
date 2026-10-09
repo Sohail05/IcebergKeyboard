@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Iceberg Keyboard</string>
+    <string name="ime_name">Iceberg Keyboard</string>
+    <string name="subtype_en_us">English (US)</string>
+
+    <string name="setup_enable">Step 1: enable Iceberg Keyboard in the system keyboard list.</string>
+    <string name="setup_select">Step 2: switch to Iceberg Keyboard.</string>
+    <string name="setup_done">Iceberg Keyboard is active. Try it below.</string>
+    <string name="enable_keyboard">Enable keyboard</string>
+    <string name="select_keyboard">Switch keyboard</string>
+    <string name="try_hint">Type here to try the keyboard…</string>
+
+    <string name="cat_shortcuts">Text shortcuts</string>
+    <string name="cat_typing">Typing</string>
+    <string name="cat_appearance">Appearance</string>
+    <string name="cat_feedback">Feedback</string>
+    <string name="cat_about">About</string>
+
+    <string name="manage_shortcuts">Manage shortcuts</string>
+    <string name="shortcuts_summary">%1$d shortcuts · add, edit, import, export</string>
+    <string name="pref_auto_expand">Expand on space</string>
+    <string name="pref_auto_expand_summary">Typing a trigger then space inserts the expansion. Backspace right after undoes it.</string>
+    <string name="pref_suggestions">Show suggestions</string>
+    <string name="pref_autocorrect">Autocorrect</string>
+    <string name="pref_autocorrect_summary">Fix obvious typos on space or punctuation. Backspace right after undoes the correction.</string>
+    <string name="pref_auto_cap">Auto-capitalization</string>
+    <string name="pref_double_space">Double-space for period</string>
+    <string name="pref_smart_punct">Smart punctuation</string>
+    <string name="pref_smart_punct_summary">After picking a suggestion, typing . , ? ! moves the space after the punctuation</string>
+    <string name="pref_space_cursor">Swipe space bar to move cursor</string>
+    <string name="pref_learn">Learn new words</string>
+    <string name="pref_learn_summary">Never in password or incognito fields. Stored only on this device.</string>
+    <string name="clear_learned_title">Clear learned words</string>
+    <string name="clear_learned_message">Delete %1$d learned words? The built-in dictionary is not affected.</string>
+    <string name="clear">Clear</string>
+    <string name="pref_theme">Theme</string>
+    <string name="pref_key_height">Key height (dp)</string>
+    <string name="pref_number_row">Number row</string>
+    <string name="pref_key_hints">Long-press hints on keys</string>
+    <string name="pref_long_press">Long-press delay (ms)</string>
+    <string name="pref_haptics">Vibrate on keypress</string>
+    <string name="pref_haptic_ms">Vibration length (ms)</string>
+    <string name="pref_sound">Sound on keypress</string>
+
+    <string name="shortcuts_title">Text shortcuts</string>
+    <string name="search_shortcuts">Search shortcuts</string>
+    <string name="no_shortcuts">No shortcuts yet. Tap + to add one, or import a file from the menu.</string>
+    <string name="add_shortcut">Add shortcut</string>
+    <string name="edit_shortcut">Edit shortcut</string>
+    <string name="trigger">Trigger (e.g. brb, ;addr)</string>
+    <string name="expansion">Expansion</string>
+    <string name="placeholder_help">Placeholders: {date} {time} {datetime} {clipboard} {cursor}</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="trigger_exists">Another shortcut already uses this trigger</string>
+    <string name="delete_one_title">Delete \"%1$s\"?</string>
+    <string name="delete_all_title">Delete all shortcuts?</string>
+    <string name="delete_all_message">This removes all %1$d shortcuts. Export first if you want a backup.</string>
+    <string name="action_import">Import…</string>
+    <string name="action_export">Export…</string>
+    <string name="action_share">Share as text</string>
+    <string name="action_delete_all">Delete all</string>
+    <string name="share_shortcuts">Share shortcuts</string>
+    <string name="export_done">Exported %1$d shortcuts</string>
+    <string name="export_failed">Export failed: %1$s</string>
+    <string name="import_failed">Couldn\'t import file</string>
+    <string name="import_title">Import shortcuts</string>
+    <string name="import_summary">Found %1$d shortcuts (%2$s format).</string>
+    <string name="import_duplicates">%1$d have the same trigger as an existing shortcut.</string>
+    <string name="import_skipped">%1$d entries were skipped:</string>
+    <string name="import_next">Continue</string>
+    <string name="import_how">How should duplicates be handled?</string>
+    <string name="merge_overwrite">Merge: imported version wins</string>
+    <string name="merge_keep">Merge: keep my existing version</string>
+    <string name="merge_replace">Replace all my shortcuts</string>
+    <string name="import_action">Import</string>
+    <string name="import_done">Added %1$d, updated %2$d, unchanged %3$d</string>
+
+    <plurals name="shortcut_count">
+        <item quantity="one">%d shortcut</item>
+        <item quantity="other">%d shortcuts</item>
+    </plurals>
+
+    <string-array name="theme_entries">
+        <item>Follow system</item>
+        <item>Light</item>
+        <item>Dark</item>
+        <item>AMOLED black</item>
+    </string-array>
+    <string-array name="theme_values" translatable="false">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+        <item>amoled</item>
+    </string-array>
+</resources>

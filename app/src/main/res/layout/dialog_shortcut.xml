@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="8dp">
+
+    <EditText
+        android:id="@+id/trigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/trigger"
+        android:importantForAutofill="no"
+        android:inputType="text|textNoSuggestions"
+        android:maxLength="64" />
+
+    <EditText
+        android:id="@+id/expansion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/expansion"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine|textCapSentences"
+        android:minLines="2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/placeholder_help"
+        android:textAppearance="?attr/textAppearanceBodySmall" />
+</LinearLayout>

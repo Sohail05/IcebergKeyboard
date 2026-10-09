@@ -1,0 +1,35 @@
+name: Feature request
+description: Suggest a new feature or an improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation or annoyance, not just the solution.
+      placeholder: "I type my address several times a week and long-pressing for the comma is slow…"
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Typing / autocorrect / suggestions
+        - Text shortcuts / import & export
+        - Layout / keys / one-handed use
+        - Emoji / clipboard
+        - Appearance / themes
+        - Settings / setup
+        - Performance
+        - Other
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do other keyboards handle it?
+      description: Optional - e.g. "Samsung Keyboard does X, Gboard does Y".

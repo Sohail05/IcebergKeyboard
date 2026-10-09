@@ -1,0 +1,43 @@
+name: Bug report
+description: Something on the keyboard doesn't work as expected
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+      placeholder: "Typed 'teh' + space in WhatsApp; expected 'the', got 'teh '"
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: App / text field
+      description: Where were you typing? (app name, and the kind of field if you know it - search bar, password, chat…)
+      placeholder: WhatsApp chat box
+  - type: input
+    id: version
+    attributes:
+      label: Iceberg Keyboard version
+      description: Settings → About
+      placeholder: 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+      placeholder: Galaxy S9+ (SM-G965U), Android 10 / One UI 2.5
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often?
+      options: [Every time, Sometimes, Once]
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots, screen recording, or logs
+      description: Optional. For crashes, `adb logcat -d | grep -i iceberg` output helps a lot. Please don't paste anything private you typed.
